@@ -1,0 +1,34 @@
+{
+    "name": "ui-automation-selenium",
+    "version": "1.0.0",
+    "description": "UI automation testing using selenium JS",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --reporter mochawesome --reporter-options reportDir=./test/reports,reportFilename=test-report --recursive ./test/*test.js --require babel-register --timeout 90000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Darth-koder007/ui-automation-selenium.git"
+    },
+    "keywords": [
+        "selenium",
+        "javascript",
+        "automation"
+    ],
+    "author": "Vijay Singh<vj010sn@gmail.com>",
+    "license": "GNU GENERAL PUBLIC LICENSE Version 3",
+    "bugs": {
+        "url": "https://github.com/Darth-koder007/ui-automation-selenium/issues"
+    },
+    "homepage": "https://github.com/Darth-koder007/ui-automation-selenium#readme",
+    "devDependencies": {
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-register": "^6.26.0",
+        "chromedriver": "^2.46.0",
+        "geckodriver": "^1.15.1",
+        "mocha": "^6.0.2",
+        "mochawesome": "^3.1.1",
+        "selenium-webdriver": "^4.0.0-alpha.1"
+    }
+}
